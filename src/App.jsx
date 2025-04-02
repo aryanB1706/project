@@ -28,7 +28,7 @@ function App() {
       {/* Background music (add an MP3 file in `/src/assets/audio/`) */}
       {musicPlaying && (
         <audio autoPlay loop>
-          <source src="/public/assets/audio/love-song.mp3" type="audio/mpeg" />
+          <source src="/assets/audio/love-song.mp3" type="audio/mpeg" />
         </audio>
       )}
 

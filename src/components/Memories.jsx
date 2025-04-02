@@ -20,7 +20,7 @@ export default function Memories({ photos, onForgive }) {
       <h2>Our Beautiful Memories</h2>
       <div className="photo-gallery">
         <img 
-          src={`/public/assets/images/${photos[currentPhoto]}`} 
+          src={`/assets/images/${photos[currentPhoto]}`} 
           alt="Our memory" 
           onClick={nextPhoto}
           style={{
